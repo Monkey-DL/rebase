@@ -1,0 +1,11 @@
+git checkout develop
+git pull origin develop
+git checkout my_branch
+git rebase develop
+
+// fix conflicts
+
+git add your_files
+git rebase --continue
+
+git push --force origin my_branch
